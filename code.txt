@@ -1,0 +1,869 @@
+    ________________                 __    __                 ________
+   |                |               |  |  / /                /  ____  \  
+   |______|   ______|     ______    |  | / /   ______       /  /    \  \
+          |   |          |      |   |  |/ /   |      |     /__/      \  \
+          |   |          |___   |   |    /    |___   |               /  /
+          |   |          ____|  |   |   /     ____|  |              /  /
+          |   |         |  __   |   |  |     |  __   |             /  /
+          |   |         | |  |  |   |  |     | |  |  |            /  / 
+          |   |         | |  |  |   |  |     | |  |  |           /  /
+          |   |         | |__|  |   |  |     | |__|  |          /  /  
+          |___|         |_______|   |__|     |_______|         /  /
+                                                              /  /________|
+                                                             /____________|
+----------------------------------------------------------------------------
+                     for software and GUI programming  
+---------------------------------------------------------------------------- 
+
+
+
+//this is the game code in VB Language 
+its very easy relative to mini programmer;
+
+
+Tarek Hesham (a Computer, Another World)TM
+
+Puzzle Cub version 1.0
+
+Dim d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, d13, d14, d15, d16, d17, d18, d19, d20, d21, d22, d23, d24, d25, d26, d27, d28, d29, d30, d31, d32, d33, d34, d35, d36, d37, d38, d39, d40, d41, d42, d43, d44, d45, d46, d47, d48, d49, d50, d51, d52, d53, d54, l As String
+Dim t1, t2, t3 As String
+Dim tarek(10000), s, keyt As Integer
+Dim m As Integer
+Dim pl As Single
+Private Sub coloring()
+Shape1.FillColor = d1
+Shape2.FillColor = d2
+Shape3.FillColor = d3
+Shape4.FillColor = d4
+Shape5.FillColor = d5
+Shape6.FillColor = d6
+Shape7.FillColor = d7
+Shape8.FillColor = d8
+Shape9.FillColor = d9
+Shape10.FillColor = d10
+Shape11.FillColor = d11
+Shape12.FillColor = d12
+Shape13.FillColor = d13
+Shape14.FillColor = d14
+Shape15.FillColor = d15
+Shape16.FillColor = d16
+Shape17.FillColor = d17
+Shape18.FillColor = d18
+Shape19.FillColor = d19
+Shape20.FillColor = d20
+Shape21.FillColor = d21
+Shape22.FillColor = d22
+Shape23.FillColor = d23
+Shape24.FillColor = d24
+Shape25.FillColor = d25
+Shape26.FillColor = d26
+Shape27.FillColor = d27
+Shape28.FillColor = d28
+Shape29.FillColor = d29
+Shape30.FillColor = d30
+Shape31.FillColor = d31
+Shape32.FillColor = d32
+Shape33.FillColor = d33
+Shape34.FillColor = d34
+Shape35.FillColor = d35
+Shape36.FillColor = d36
+Shape37.FillColor = d37
+Shape38.FillColor = d38
+Shape39.FillColor = d39
+Shape40.FillColor = d40
+Shape41.FillColor = d41
+Shape42.FillColor = d42
+Shape43.FillColor = d43
+Shape44.FillColor = d44
+Shape45.FillColor = d45
+Shape46.FillColor = d46
+Shape47.FillColor = d47
+Shape48.FillColor = d48
+Shape49.FillColor = d49
+Shape50.FillColor = d50
+Shape51.FillColor = d51
+Shape52.FillColor = d52
+Shape53.FillColor = d53
+Shape54.FillColor = d54
+End Sub
+
+Private Sub Command1_Click()
+t1 = d16
+t2 = d17
+t3 = d18
+d16 = d34
+d17 = d35
+d18 = d36
+d34 = d43
+d35 = d44
+d36 = d45
+d43 = d52
+d44 = d53
+d45 = d54
+d52 = t1
+d53 = t2
+d54 = t3
+t1 = d19
+t2 = d20
+t3 = d21
+d19 = d21
+d20 = d24
+d21 = d27
+d21 = d27
+d24 = d26
+d27 = d25
+d27 = d25
+d26 = d22
+d25 = d19
+d25 = t1
+d22 = t2
+d19 = t3
+coloring
+If (keyt = 1) Then
+s = s + 1
+tarek(s) = 3
+End If
+windetect
+End Sub
+
+Private Sub Command10_Click()
+For n = 1 To 3
+t1 = d1
+t2 = d4
+t3 = d7
+d1 = d10
+d4 = d13
+d7 = d16
+d10 = d19
+d13 = d22
+d16 = d25
+d19 = d37
+d22 = d40
+d25 = d43
+d37 = t1
+d40 = t2
+d43 = t3
+t1 = d46
+t2 = d47
+t3 = d48
+d46 = d48
+d47 = d51
+d48 = d54
+d48 = d54
+d51 = d53
+d54 = d52
+d54 = d52
+d53 = d49
+d52 = d46
+d52 = t1
+d49 = t2
+d46 = t3
+coloring
+Next n
+If (keyt = 1) Then
+s = s + 1
+tarek(s) = 10
+End If
+windetect
+End Sub
+
+Private Sub Command11_Click()
+t1 = d38
+t2 = d41
+t3 = d44
+d38 = d20
+d41 = d23
+d44 = d26
+d20 = d11
+d23 = d14
+d26 = d17
+d11 = d2
+d14 = d5
+d17 = d8
+d2 = t1
+d5 = t2
+d8 = t3
+coloring
+If (keyt = 1) Then
+s = s + 1
+tarek(s) = 11
+End If
+windetect
+End Sub
+
+Private Sub Command12_Click()
+For n = 1 To 3
+t1 = d3
+t2 = d6
+t3 = d9
+d3 = d12
+d6 = d15
+d9 = d18
+d12 = d21
+d15 = d24
+d18 = d27
+d21 = d39
+d24 = d42
+d27 = d45
+d39 = t1
+d42 = t2
+d45 = t3
+t1 = d30
+t2 = d29
+t3 = d28
+d30 = d28
+d29 = d31
+d28 = d34
+d28 = d34
+d31 = d35
+d34 = d36
+d34 = d36
+d35 = d33
+d36 = d30
+d36 = t1
+d33 = t2
+d30 = t3
+coloring
+Next n
+If (keyt = 1) Then
+s = s + 1
+tarek(s) = 12
+End If
+windetect
+End Sub
+Private Sub Command2_Click()
+t1 = d13
+t2 = d14
+t3 = d15
+d13 = d31
+d14 = d32
+d15 = d33
+d31 = d40
+d32 = d41
+d33 = d42
+d40 = d49
+d41 = d50
+d42 = d51
+d49 = t1
+d50 = t2
+d51 = t3
+coloring
+If (keyt = 1) Then
+s = s + 1
+tarek(s) = 2
+End If
+windetect
+End Sub
+
+Private Sub Command3_Click()
+t1 = d10
+t2 = d11
+t3 = d12
+d10 = d28
+d11 = d29
+d12 = d30
+d28 = d37
+d29 = d38
+d30 = d39
+d37 = d46
+d38 = d47
+d39 = d48
+d46 = t1
+d47 = t2
+d48 = t3
+t1 = d3
+t2 = d2
+t3 = d1
+d3 = d1
+d2 = d4
+d1 = d7
+d1 = d7
+d4 = d8
+d7 = d9
+d7 = d9
+d8 = d6
+d9 = d3
+d9 = t1
+d6 = t2
+d3 = t3
+coloring
+If (keyt = 1) Then
+s = s + 1
+tarek(s) = 1
+End If
+windetect
+End Sub
+
+Private Sub Command4_Click()
+t1 = d1
+t2 = d4
+t3 = d7
+d1 = d10
+d4 = d13
+d7 = d16
+d10 = d19
+d13 = d22
+d16 = d25
+d19 = d37
+d22 = d40
+d25 = d43
+d37 = t1
+d40 = t2
+d43 = t3
+t1 = d46
+t2 = d47
+t3 = d48
+d46 = d48
+d47 = d51
+d48 = d54
+d48 = d54
+d51 = d53
+d54 = d52
+d54 = d52
+d53 = d49
+d52 = d46
+d52 = t1
+d49 = t2
+d46 = t3
+coloring
+If (keyt = 1) Then
+s = s + 1
+tarek(s) = 4
+End If
+windetect
+End Sub
+
+Private Sub Command5_Click()
+t1 = d2
+t2 = d5
+t3 = d8
+d2 = d11
+d5 = d14
+d8 = d17
+d11 = d20
+d14 = d23
+d17 = d26
+d20 = d38
+d23 = d41
+d26 = d44
+d38 = t1
+d41 = t2
+d44 = t3
+coloring
+If (keyt = 1) Then
+s = s + 1
+tarek(s) = 5
+End If
+windetect
+End Sub
+
+Private Sub Command6_Click()
+t1 = d3
+t2 = d6
+t3 = d9
+d3 = d12
+d6 = d15
+d9 = d18
+d12 = d21
+d15 = d24
+d18 = d27
+d21 = d39
+d24 = d42
+d27 = d45
+d39 = t1
+d42 = t2
+d45 = t3
+t1 = d30
+t2 = d29
+t3 = d28
+d30 = d28
+d29 = d31
+d28 = d34
+d28 = d34
+d31 = d35
+d34 = d36
+d34 = d36
+d35 = d33
+d36 = d30
+d36 = t1
+d33 = t2
+d30 = t3
+coloring
+If (keyt = 1) Then
+s = s + 1
+tarek(s) = 6
+End If
+windetect
+End Sub
+
+Private Sub Command7_Click()
+For n = 1 To 3
+t1 = d10
+t2 = d11
+t3 = d12
+d10 = d28
+d11 = d29
+d12 = d30
+d28 = d37
+d29 = d38
+d30 = d39
+d37 = d46
+d38 = d47
+d39 = d48
+d46 = t1
+d47 = t2
+d48 = t3
+t1 = d3
+t2 = d2
+t3 = d1
+d3 = d1
+d2 = d4
+d1 = d7
+d1 = d7
+d4 = d8
+d7 = d9
+d7 = d9
+d8 = d6
+d9 = d3
+d9 = t1
+d6 = t2
+d3 = t3
+coloring
+Next n
+If (keyt = 1) Then
+s = s + 1
+tarek(s) = 7
+End If
+windetect
+End Sub
+
+Private Sub Command8_Click()
+t1 = d49
+t2 = d50
+t3 = d51
+d49 = d40
+d50 = d41
+d51 = d42
+d40 = d31
+d41 = d32
+d42 = d33
+d31 = d13
+d32 = d14
+d33 = d15
+d13 = t1
+d14 = t2
+d15 = t3
+coloring
+If (keyt = 1) Then
+s = s + 1
+tarek(s) = 8
+End If
+windetect
+End Sub
+
+Private Sub Command9_Click()
+For n = 1 To 3
+t1 = d16
+t2 = d17
+t3 = d18
+d16 = d34
+d17 = d35
+d18 = d36
+d34 = d43
+d35 = d44
+d36 = d45
+d43 = d52
+d44 = d53
+d45 = d54
+d52 = t1
+d53 = t2
+d54 = t3
+t1 = d19
+t2 = d20
+t3 = d21
+d19 = d21
+d20 = d24
+d21 = d27
+d21 = d27
+d24 = d26
+d27 = d25
+d27 = d25
+d26 = d22
+d25 = d19
+d25 = t1
+d22 = t2
+d19 = t3
+coloring
+Next n
+If (keyt = 1) Then
+s = s + 1
+tarek(s) = 9
+End If
+windetect
+End Sub
+
+
+
+
+
+
+Private Sub di1_Click()
+di1.Checked = True
+di2.Checked = False
+di3.Checked = False
+di4.Checked = False
+di5.Checked = False
+pl = 5
+End Sub
+
+Private Sub di2_Click()
+di1.Checked = False
+di2.Checked = True
+di3.Checked = False
+di4.Checked = False
+di5.Checked = False
+pl = 10
+End Sub
+
+Private Sub di3_Click()
+di1.Checked = False
+di2.Checked = False
+di3.Checked = True
+di4.Checked = False
+di5.Checked = False
+pl = 15
+End Sub
+
+Private Sub di4_Click()
+di1.Checked = False
+di2.Checked = False
+di3.Checked = False
+di4.Checked = True
+di5.Checked = False
+pl = 20
+End Sub
+
+Private Sub di5_Click()
+di1.Checked = False
+di2.Checked = False
+di3.Checked = False
+di4.Checked = False
+di5.Checked = True
+pl = 25
+End Sub
+
+Private Sub Form_Load()
+d1 = &HFF&
+d2 = &HFF&
+d3 = &HFF&
+d4 = &HFF&
+d5 = &HFF&
+d6 = &HFF&
+d7 = &HFF&
+d8 = &HFF&
+d9 = &HFF&
+d10 = &HFFFF&
+d11 = &HFFFF&
+d12 = &HFFFF&
+d13 = &HFFFF&
+d14 = &HFFFF&
+d15 = &HFFFF&
+d16 = &HFFFF&
+d17 = &HFFFF&
+d18 = &HFFFF&
+d19 = &HFF00&
+d20 = &HFF00&
+d21 = &HFF00&
+d22 = &HFF00&
+d23 = &HFF00&
+d24 = &HFF00&
+d25 = &HFF00&
+d26 = &HFF00&
+d27 = &HFF00&
+d28 = &H0&
+d29 = &H0&
+d30 = &H0&
+d31 = &H0&
+d32 = &H0&
+d33 = &H0&
+d34 = &H0&
+d35 = &H0&
+d36 = &H0&
+d37 = &HFFFFFF
+d38 = &HFFFFFF
+d39 = &HFFFFFF
+d40 = &HFFFFFF
+d41 = &HFFFFFF
+d42 = &HFFFFFF
+d43 = &HFFFFFF
+d44 = &HFFFFFF
+d45 = &HFFFFFF
+d46 = &HFF0000
+d47 = &HFF0000
+d48 = &HFF0000
+d49 = &HFF0000
+d50 = &HFF0000
+d51 = &HFF0000
+d52 = &HFF0000
+d53 = &HFF0000
+d54 = &HFF0000
+coloring
+keyt = 0
+pl = 5
+End Sub
+Private Sub windetect()
+If (Shape1.FillColor = Shape2.FillColor And Shape2.FillColor = Shape3.FillColor And Shape3.FillColor = Shape4.FillColor And Shape4.FillColor = Shape5.FillColor And Shape5.FillColor = Shape6.FillColor And Shape6.FillColor = Shape7.FillColor And Shape7.FillColor = Shape8.FillColor And Shape8.FillColor = Shape9.FillColor) Then
+If (Shape10.FillColor = Shape11.FillColor And Shape11.FillColor = Shape12.FillColor And Shape12.FillColor = Shape13.FillColor And Shape13.FillColor = Shape14.FillColor And Shape14.FillColor = Shape15.FillColor And Shape15.FillColor = Shape16.FillColor And Shape16.FillColor = Shape17.FillColor And Shape17.FillColor = Shape18.FillColor) Then
+If (Shape19.FillColor = Shape20.FillColor And Shape20.FillColor = Shape21.FillColor And Shape21.FillColor = Shape22.FillColor And Shape22.FillColor = Shape23.FillColor And Shape23.FillColor = Shape24.FillColor And Shape24.FillColor = Shape25.FillColor And Shape25.FillColor = Shape26.FillColor And Shape26.FillColor = Shape27.FillColor) Then
+If (Shape28.FillColor = Shape29.FillColor And Shape29.FillColor = Shape30.FillColor And Shape30.FillColor = Shape31.FillColor And Shape31.FillColor = Shape32.FillColor And Shape32.FillColor = Shape33.FillColor And Shape33.FillColor = Shape34.FillColor And Shape34.FillColor = Shape35.FillColor And Shape35.FillColor = Shape36.FillColor) Then
+MsgBox ("good")
+End If
+End If
+End If
+End If
+End Sub
+
+Private Sub numbering()
+For s = 0 To pl
+m = (Math.Rnd * 100) / 8
+tarek(s) = m
+If (tarek(s) < 1 Or tarek(s) > 12) Then
+s = s - 1
+End If
+Next s
+End Sub
+
+Private Sub op1_Click()
+Timer2.Interval = 500
+keyt = 0
+End Sub
+
+Private Sub op2_Click()
+If (s >= 0) Then
+tarek(s) = 0
+s = s - 1
+Image2.Visible = True
+If (tarek(s) = 1) Then
+Command7_Click
+Image2.Picture = LoadPicture("pic\s1r.jpg")
+End If
+If (tarek(s) = 2) Then
+Command8_Click
+Image2.Picture = LoadPicture("pic\s2r.jpg")
+End If
+If (tarek(s) = 3) Then
+Command9_Click
+Image2.Picture = LoadPicture("pic\s3r.jpg")
+End If
+If (tarek(s) = 4) Then
+Command10_Click
+Image2.Picture = LoadPicture("pic\a1d.jpg")
+End If
+If (tarek(s) = 5) Then
+Command11_Click
+Image2.Picture = LoadPicture("pic\a2d.jpg")
+End If
+If (tarek(s) = 6) Then
+Command12_Click
+Image2.Picture = LoadPicture("pic\a3d.jpg")
+End If
+If (tarek(s) = 7) Then
+Command3_Click
+Image2.Picture = LoadPicture("pic\s1l.jpg")
+End If
+If (tarek(s) = 8) Then
+Command2_Click
+Image2.Picture = LoadPicture("pic\s2l.jpg")
+End If
+If (tarek(s) = 9) Then
+Command1_Click
+Image2.Picture = LoadPicture("pic\s3l.jpg")
+End If
+If (tarek(s) = 10) Then
+Command4_Click
+Image2.Picture = LoadPicture("pic\a1t.jpg")
+End If
+If (tarek(s) = 11) Then
+Command5_Click
+Image2.Picture = LoadPicture("pic\a2t.jpg")
+End If
+If (tarek(s) = 12) Then
+Command6_Click
+Image2.Picture = LoadPicture("pic\a3t.jpg")
+End If
+Image2.Visible = False
+End If
+End Sub
+
+Private Sub sbar11_Click()
+sbar12_Click
+numbering
+For s = 0 To pl
+If (tarek(s) = 1) Then
+Command3_Click
+End If
+If (tarek(s) = 2) Then
+Command2_Click
+End If
+If (tarek(s) = 3) Then
+Command1_Click
+End If
+If (tarek(s) = 4) Then
+Command4_Click
+End If
+If (tarek(s) = 5) Then
+Command5_Click
+End If
+If (tarek(s) = 6) Then
+Command6_Click
+End If
+If (tarek(s) = 7) Then
+Command7_Click
+End If
+If (tarek(s) = 8) Then
+Command8_Click
+End If
+If (tarek(s) = 9) Then
+Command9_Click
+End If
+If (tarek(s) = 10) Then
+Command10_Click
+End If
+If (tarek(s) = 11) Then
+Command11_Click
+End If
+If (tarek(s) = 12) Then
+Command12_Click
+End If
+Next s
+keyt = 1
+End Sub
+
+Private Sub sbar12_Click()
+d1 = &HFF&
+d2 = &HFF&
+d3 = &HFF&
+d4 = &HFF&
+d5 = &HFF&
+d6 = &HFF&
+d7 = &HFF&
+d8 = &HFF&
+d9 = &HFF&
+d10 = &HFFFF&
+d11 = &HFFFF&
+d12 = &HFFFF&
+d13 = &HFFFF&
+d14 = &HFFFF&
+d15 = &HFFFF&
+d16 = &HFFFF&
+d17 = &HFFFF&
+d18 = &HFFFF&
+d19 = &HFF00&
+d20 = &HFF00&
+d21 = &HFF00&
+d22 = &HFF00&
+d23 = &HFF00&
+d24 = &HFF00&
+d25 = &HFF00&
+d26 = &HFF00&
+d27 = &HFF00&
+d28 = &H0&
+d29 = &H0&
+d30 = &H0&
+d31 = &H0&
+d32 = &H0&
+d33 = &H0&
+d34 = &H0&
+d35 = &H0&
+d36 = &H0&
+d37 = &HFFFFFF
+d38 = &HFFFFFF
+d39 = &HFFFFFF
+d40 = &HFFFFFF
+d41 = &HFFFFFF
+d42 = &HFFFFFF
+d43 = &HFFFFFF
+d44 = &HFFFFFF
+d45 = &HFFFFFF
+d46 = &HFF0000
+d47 = &HFF0000
+d48 = &HFF0000
+d49 = &HFF0000
+d50 = &HFF0000
+d51 = &HFF0000
+d52 = &HFF0000
+d53 = &HFF0000
+d54 = &HFF0000
+coloring
+keyt = 0
+s = -1
+End Sub
+
+Private Sub sbar13_Click()
+End
+End Sub
+
+Private Sub sbar14_Click()
+MsgBox ("Tarek Hesham (a computer Another World)TM  &  Lolie ")
+End Sub
+
+Private Sub Timer2_Timer()
+If (s >= 0) Then
+Image2.Visible = True
+If (tarek(s) = 1) Then
+Command7_Click
+Image2.Picture = LoadPicture("pic\s1r.jpg")
+End If
+If (tarek(s) = 2) Then
+Command8_Click
+Image2.Picture = LoadPicture("pic\s2r.jpg")
+End If
+If (tarek(s) = 3) Then
+Command9_Click
+Image2.Picture = LoadPicture("pic\s3r.jpg")
+End If
+If (tarek(s) = 4) Then
+Command10_Click
+Image2.Picture = LoadPicture("pic\a1d.jpg")
+End If
+If (tarek(s) = 5) Then
+Command11_Click
+Image2.Picture = LoadPicture("pic\a2d.jpg")
+End If
+If (tarek(s) = 6) Then
+Command12_Click
+Image2.Picture = LoadPicture("pic\a3d.jpg")
+End If
+If (tarek(s) = 7) Then
+Command3_Click
+Image2.Picture = LoadPicture("pic\s1l.jpg")
+End If
+If (tarek(s) = 8) Then
+Command2_Click
+Image2.Picture = LoadPicture("pic\s2l.jpg")
+End If
+If (tarek(s) = 9) Then
+Command1_Click
+Image2.Picture = LoadPicture("pic\s3l.jpg")
+End If
+If (tarek(s) = 10) Then
+Command4_Click
+Image2.Picture = LoadPicture("pic\a1t.jpg")
+End If
+If (tarek(s) = 11) Then
+Command5_Click
+Image2.Picture = LoadPicture("pic\a2t.jpg")
+End If
+If (tarek(s) = 12) Then
+Command6_Click
+Image2.Picture = LoadPicture("pic\a3t.jpg")
+End If
+tarek(s) = 0
+s = s - 1
+Else
+s = s - 1
+Timer2.Interval = 0
+keyt = 0
+Image2.Visible = False
+End If
+End Sub
